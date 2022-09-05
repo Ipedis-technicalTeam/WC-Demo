@@ -2,6 +2,34 @@
 // @use "helpers";
 // @use "components";
 
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Book";
+  src: url("../fonts/Avenir-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../fonts/Avenir-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("../fonts/Avenir-Heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
