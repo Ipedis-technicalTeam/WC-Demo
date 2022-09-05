@@ -1,0 +1,78 @@
+// @use "layout";
+// @use "helpers";
+// @use "components";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.ip-content {
+  margin: 50px 0;
+  display: flex;
+}
+
+.ip-content img {
+  border-radius: 10px;
+}
+
+.ip-content .ip-content-desc {
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+.ip-content .ip-content-title {
+  margin-top: 35px;
+  font-family: Avenir-Heavy;
+  font-size: 18px;
+  color: #b00057;
+  text-transform: uppercase;
+}
+
+.ip-content .ip-content-subtitle {
+  margin-top: 15px;
+  font-family: Avenir-Heavy;
+  font-size: 42px;
+  color: #b00057;
+}
+
+.ip-content .ip-content-text {
+  margin-top: 20px;
+  font-family: Avenir-Book;
+  font-size: 18px;
+  color: #2e3243;
+}
+
+.ip-content .ip-content-btn {
+  margin-top: 20px;
+  font-family: Avenir-Heavy;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #b00057;
+  color: #ffffff;
+}
+
+.ip-content .ip-content-btn img {
+  margin-left: 15px;
+  width: 14px;
+  height: 15px;
+}

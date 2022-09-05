@@ -1,0 +1,48 @@
+@use "../theme" as *;
+@use "../utilities" as *;
+
+body {
+  font-family: $primaryFontRegular;
+  font-size: rem(18);
+  font-weight: normal;
+  line-height: normal;
+  text-align: start;
+
+  @include mq($ps-mobile) {
+    font-size: rem(16);
+  }
+}
+
+strong {
+  font-family: $primaryFontMedium;
+  font-weight: normal;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: $primaryFontBold;
+  font-weight: normal;
+  line-height: 1;
+  text-align: start;
+
+  strong {
+    font-family: inherit;
+    font-weight: 700;
+  }
+}
+
+h2 {
+  font-size: rem(32);
+
+  @include mq($ps-mobile) {
+    font-size: rem(25);
+  }
+}
+
+main p {
+  line-height: 1.4;
+  margin-block-end: rem(10);
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+}
